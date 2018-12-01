@@ -1,0 +1,115 @@
+body{
+  background:lightblue;
+}
+p{
+  font-size: 50%;
+}
+.maindiv{
+  background: aqua;
+  margin:3%;
+  border-radius: 5%;
+  display: flex;
+  box-shadow: 3px 3px 3px 3px;
+  background-image: url(images.jpg);
+}
+.subdiv1{
+  background:pink;
+  margin:3%;
+  border-radius:4%;
+  box-shadow: 3px 3px 3px 3px white;
+  text-align: center;
+  position:fixed;
+  width:22%;
+  margin-right:40%;
+}
+.subdiv2{
+  background: lightgreen;
+  margin:3%;
+  border-radius: 4%;
+  box-shadow: 3px 3px 3px 3px white;
+  width:70%;
+  margin-left:30%;
+  padding: 1%;
+}
+@media screen and (min-width:320px) and (max-width:420px) {
+  body{
+    background:red;
+  }
+  p{
+    font-size: 50%;
+  }
+  h2,h3{
+    font-size: 40%;
+
+  }
+  .maindiv{
+    background:white;
+    margin:2%;
+    border-radius: 3%;
+    display:inline-block;
+    width:90%;
+    padding: 6%;
+     background-image: url(nature.jpg);
+  }
+  .subdiv1{
+    background:green;
+    margin:0%;
+    border-radius:3%;
+    text-align: center;
+    width:90%;
+    height:80%;
+    position: relative;
+
+  }
+  .subdiv2{
+    background: green;
+    margin:0%;
+    border-radius: 3%;
+    width:90%;
+    padding: 2%;
+  }
+  table {
+      width: 100%;
+      font-size: 50%;
+      border: 1px solid #ddd;
+  }
+}
+@media screen and (min-width:550px) and (max-width:670px){
+  body{
+    background:skyblue;
+  }
+  p{
+    font-size: 70%;
+  }
+  .maindiv{
+  background-color: red;
+  margin:0%;
+  border-radius:3%;
+  display:flex;
+  justify-content: space-around;
+}
+.subdiv1{
+  background:lightblue;
+  margin:0%;
+  border-radius:3%;
+  width:35%;
+margin-left: -30%;
+height:80%;
+
+}
+.subdiv2{
+  background:lightgreen;
+  margin:0%;
+  border-radius: 3%;
+  width:60%;
+  margin-left: 50%;
+
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 50%
+}
+}
